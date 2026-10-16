@@ -1,0 +1,49 @@
+# Gradle
+.gradle/
+**/.gradle/
+build/
+**/build/
+.kotlin/
+
+# Local Android/Gradle configuration
+local.properties
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Android build and tooling output
+.externalNativeBuild/
+**/.externalNativeBuild/
+.cxx/
+**/.cxx/
+captures/
+**/captures/
+*.apk
+*.aab
+*.ap_
+
+# Kotlin compiler and generated output
+*.class
+*.jar
+*.kotlin_module
+
+# Native build output
+*.so
+*.dylib
+*.dll
+
+# Signing and local keystore files
+*.jks
+*.keystore
+
+# Java/Kotlin crash logs
+hs_err_pid*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
